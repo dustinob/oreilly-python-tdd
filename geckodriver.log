@@ -196,3 +196,21 @@ JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCK
 1503423857975	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
 1503423857977	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
 1503423861070	Marionette	INFO	New connections will no longer be accepted
+1503428466943	geckodriver	INFO	geckodriver 0.18.0
+1503428466990	geckodriver	INFO	Listening on 127.0.0.1:62267
+1503428468042	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1503428468544	Marionette	INFO	Enabled via --marionette
+2017-08-22 12:01:09.595 plugin-container[25884:20912758] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xaa3b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-08-22 12:01:09.597 plugin-container[25884:20912758] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0xad03, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1503428469756	Marionette	INFO	Listening on port 62276
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1503428469804	Marionette	WARN	TLS certificate errors will be ignored for this session
+1503428469834	Marionette	DEBUG	loaded listener.js
+1503428469858	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1503428469872	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1503428469872	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1503428469875	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1503428469877	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+1503428472967	Marionette	INFO	New connections will no longer be accepted
